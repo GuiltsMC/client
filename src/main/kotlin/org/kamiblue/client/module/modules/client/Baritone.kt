@@ -12,7 +12,7 @@ import org.kamiblue.event.listener.listener
 internal object Baritone : Module(
     name = "Baritone",
     category = Category.CLIENT,
-    description = "Configures Baritone settings",
+    description = "BARITONE BABY!!",
     showOnArray = false,
     alwaysEnabled = true
 ) {

@@ -78,7 +78,7 @@ internal object DiscordRPC : Module(
 
         BackgroundScope.launchLooping(job)
 
-        KamiMod.LOG.info("Discord RPC initialised successfully")
+        KamiMod.LOG.info("Discord RPC ready!")
     }
 
     private fun end() {

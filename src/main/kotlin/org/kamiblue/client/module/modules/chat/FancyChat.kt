@@ -10,11 +10,11 @@ import kotlin.math.min
 internal object FancyChat : Module(
     name = "FancyChat",
     category = Category.CHAT,
-    description = "Makes messages you send fancy",
+    description = "l33t",
     showOnArray = false,
     modulePriority = 100
 ) {
-    private val uwu = setting("uwu", true)
+    private val uwu = setting("message", true)
     private val leet = setting("1337", false)
     private val mock = setting("mOcK", false)
     private val green = setting(">", false)
@@ -65,7 +65,7 @@ internal object FancyChat : Module(
     override fun getHudInfo(): String {
         val returned = StringBuilder()
         if (uwu.value) {
-            returned.append("uwu")
+            returned.append("/msg ")
         }
         if (leet.value) {
             returned.append(" 1337")

@@ -21,12 +21,12 @@ import java.io.File
 class KamiMod {
 
     companion object {
-        const val NAME = "KAMI Blue"
+        const val NAME = "GuiltHack+"
         const val ID = "kamiblue"
         const val DIRECTORY = "kamiblue/"
 
         const val VERSION = "2.03.xx-dev" // Used for debugging. R.MM.DD-hash format.
-        const val VERSION_SIMPLE = "2.03.xx-dev" // Shown to the user. R.MM.DD[-beta] format.
+        const val VERSION_SIMPLE = "beta.1.0" // Shown to the user. R.MM.DD[-beta] format.
         const val VERSION_MAJOR = "2.03.01" // Used for update checking. RR.MM.01 format.
         const val BUILD_NUMBER = -1 // Do not remove, currently unused but will be used in the future.
 
@@ -37,7 +37,7 @@ class KamiMod {
         const val GITHUB_LINK = "https://github.com/kami-blue"
         const val WEBSITE_LINK = "https://kamiblue.org"
 
-        const val KAMI_KATAKANA = "カミブル"
+        const val KAMI_KATAKANA = "|"
 
         val LOG: Logger = LogManager.getLogger(NAME)
 

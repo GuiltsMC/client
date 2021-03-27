@@ -41,7 +41,7 @@ import kotlin.math.sin
 internal object Capes : Module(
     name = "Capes",
     category = Category.CLIENT,
-    description = "Controls the display of KAMI Blue capes",
+    description = "gay",
     showOnArray = false,
     enabledByDefault = true
 ) {

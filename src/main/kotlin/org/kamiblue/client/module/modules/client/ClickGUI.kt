@@ -83,7 +83,7 @@ internal object ClickGUI : Module(
             }
         }
 
-        bind.value.setBind(Keyboard.KEY_Y)
+        bind.value.setBind(Keyboard.KEY_P)
         scaleSetting.listeners.add {
             settingTimer.reset()
         }

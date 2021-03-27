@@ -12,9 +12,9 @@ import org.kamiblue.client.util.threads.safeListener
 import kotlin.math.min
 
 internal object CustomChat : Module(
-    name = "CustomChat",
+    name = "ChatAppend",
     category = Category.CHAT,
-    description = "Add a custom ending to your message!",
+    description = "GuiltHack's Chat Append.",
     showOnArray = false,
     modulePriority = 200
 ) {
@@ -55,10 +55,10 @@ internal object CustomChat : Module(
     }
 
     private fun getText() = when (textMode) {
-        TextMode.NAME -> "ᴋᴀᴍɪ ʙʟᴜᴇ"
-        TextMode.ON_TOP -> "ᴋᴀᴍɪ ʙʟᴜᴇ ᴏɴ ᴛᴏᴘ"
-        TextMode.WEBSITE -> "ｋａｍｉｂｌｕｅ．ｏｒｇ"
-        TextMode.JAPANESE -> "上にカミブルー"
+        TextMode.NAME -> "ɢᴜɪʟᴛʜᴀᴄᴋ+"
+        TextMode.ON_TOP -> "ɢᴜɪʟᴛʜᴀᴄᴋ+ ᴏɴ ᴛᴏᴘ"
+        TextMode.WEBSITE -> "ɢᴜɪʟᴛʜᴀᴄᴋ+.ɢᴀʏ"
+        TextMode.JAPANESE -> "ɢᴜɪʟᴛʜᴀᴄᴋ+ .ᴇɴɢ"
         TextMode.CUSTOM -> customText
     }
 
